@@ -1,5 +1,10 @@
 # lodash v3.10.1
 
+Custom Build of lodash for plv8. Based off modern. Uses a custom IIEF due to magic global context detection in an unexpected environment. Related to the problem when using in [web workers](https://github.com/lodash/lodash/issues/313).
+Create with lodash-cli: 
+
+  lodash modern iife="\!function(window,undefined){%output%}(this)" 
+
 The [modern build](https://github.com/lodash/lodash/wiki/Build-Differences) of [lodash](https://lodash.com/) with packages for [Bower](http://bower.io/), [Component](http://component.github.io/), & [Volo](http://volojs.org/).
 
 Generated using [lodash-cli](https://www.npmjs.com/package/lodash-cli):

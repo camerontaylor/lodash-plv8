@@ -1,7 +1,7 @@
 {
-  "name": "lodash",
+  "name": "lodash-plv8",
   "version": "3.10.1",
-  "main": "lodash.js",
+  "main": "lodash.plv8.js",
   "private": true,
   "devDependencies": {
     "curl-amd": "0.8.12",
